@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@import "./assets/fonts/stylesheet.css";
+@plugin "daisyui";
+
+:root {
+  font-family: "IRANYekanWeb", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-extrabold: 800;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
+  height: 5px;
+  width: 5px;
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active {
+  background-color: whitesmoke;
+  width: 20px !important;
+  height: 4px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c0c2c5;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--white2);
+}
+.border-less-left {
+  border-left: unset !important;
+}
+.border-plus-left {
+  border-left: 1px solid rgb(238, 234, 234);
+}
+.border-plus-bottom {
+  border-bottom: 1px solid rgb(238, 234, 234);
+}
+.border-favorite {
+  width: 67%;
+  border-bottom: 1px solid rgb(241, 238, 238);
+}

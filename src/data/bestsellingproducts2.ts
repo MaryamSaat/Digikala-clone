@@ -1,0 +1,113 @@
+export const bestSellingProducts = [
+  {
+    maintitle: "داغ ترین چند ساعت گذشته",
+  },
+  {
+    id: 1,
+    title_fa: "هدفون بلوتوثی انکر مدل SoundCore R50i A3949",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/487620e2936e1dd07238849a058fe472da39c1a5_1745824997.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 2,
+    title_fa: "هدفون بلوتوثی ناتینگ مدل MMD EXCELLENT PRO 2",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/c9f2b5a275b0e901247bb8a46b193e2125b3134e_1732544965.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 3,
+    title_fa: "لپ تاپ 15.6 اینچی اچ‌ پی مدل FD0044NQ-15-i3 1315U-16GB DDR4-512GB SSD-SVA",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/f4679acc02cb7588bb2988f85c851fb4a284f753_1740253210.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 4,
+    title_fa: "اسپرسو ساز مباشی مدل ME-ECM2042",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/c7c6e3994da4a045be2c343d1b5364a41f49f171_1705444105.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 5,
+    title_fa: "اس اس دی اینترنال ام اس آی مدل MSI SPATIUM M371 ظرفیت 500 گیگابایت",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/dcde9287e1796be365c7b2f6eb76df90ff0fb683_1681737510.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 6,
+    title_fa: "مانیتور 34 اینچ ام اس آی مدل Modern MD342CQPW",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/2b80f7cf4af2be89d2c540e3abd8be79e8abed62_1739785182.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 7,
+    title_fa: "سرویس غذاخوری 26 پارچه گلدن اوپال مدل Bone",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/f2e7169e928184a21430c6ee5dd7e53c9e320935_1735996875.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 8,
+    title_fa: "اینورتر جوشکاری 320 آمپر اینتیمکث کد کد MMA-320smart",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/697c93b6c59a41eae5a06a3060a45f290552e2c1_1725174005.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 9,
+    title_fa: "نظم دهنده سفری فوروارد مدل FCLT2338",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/0bb3c3f71e6a0d49e892d428d3d6819ea5b02199_1674464970.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 10,
+    title_fa: "نگهدارنده عینک خودرو مدل CJ 2021",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/65bd4cf918253b541f6147a31aa0aea6f0e1dd34_1607871858.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 11,
+    title_fa: "دریل بتن کن باس مدل BS-BS26SRE",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/892961d13b171f6bd1e09d52d49543870a98ed4e_1623575003.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 12,
+    title_fa: "لوستر ام کی لایتینگ مدل مدرن کد NB6604",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/9d19adaa482c42096c5381658ccb2eaa5ad23b9d_1650009640.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 13,
+    title_fa: "لیزر پوینتر مدل شکاری MM11-20",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/5605cd64023b5ce10081ea9b1223ed133f281876_1720450137.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 14,
+    title_fa: "الکتروموتور کولر آبی شرکت مهرصنعت دیارنون مدل گلد SR",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/c881e9b05fa9218124a88e0b172233eca44fa153_1689161145.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 15,
+    title_fa: "فانوس نفتی ریگینا مدل S3",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/117980616.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 16,
+    title_fa: "کارواش و سمپاش شارژی باس مدل LIFE-STYLE-88V مجموعه 10 عددی",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/67abe25aea429725474a4b0a862a5d02d8b83743_1712328432.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 17,
+    title_fa: "چراغ پیشانی اسمال سان مدل ZY-BT006",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/114337044.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+  {
+    id: 18,
+    title_fa: "شکلات خوری شیشه‌ای بومی مدل پایه دار کد 001",
+    title_en: "",
+    url: ["https://dkstatics-public.digikala.com/digikala-products/6d2ab8dc217deb40e4d7b9a052bb2e0b2096b49d_1735982438.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"],
+  },
+];

@@ -1,0 +1,17 @@
+.coloricon1__subchild {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(240, 232, 232);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  column-gap: 1px;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 50%;
+}
