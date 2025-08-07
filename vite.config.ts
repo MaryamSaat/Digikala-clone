@@ -17,19 +17,20 @@ export default defineConfig({
         short_name: "Digikala",
         description: "A Digikala clone built with React",
         theme_color: "#ffffff",
+        start_url: "/Digikala-clone/",
         icons: [
           {
-            src: "pwa-192x192.png",
+            src: "/Digikala-clone/pwa-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "pwa-512x512.png",
+            src: "/Digikala-clone/pwa-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "pwa-512x512.png",
+            src: "/Digikala-clone/pwa-512x512.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable",

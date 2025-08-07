@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "./fonts/stylesheet.css";
 @plugin "daisyui";
 
 :root {
