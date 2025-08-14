@@ -36,7 +36,7 @@
   src: url("/Digikala-clone/fonts/IRANYekanWeb-ExtraBold.eot");
   src: url("/Digikala-clone/fonts/IRANYekanWeb-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/Digikala-clone/fonts/IRANYekanWeb-ExtraBold.woff2") format("woff2"), url("/Digikala-clone/fonts/IRANYekanWeb-ExtraBold.woff") format("woff"),
     url("/Digikala-clone/fonts/IRANYekanWeb-ExtraBold.ttf") format("truetype");
-  font-weight: 300;
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
