@@ -15,6 +15,8 @@ A project to learn the structure of website design using React TS version.19 Tai
 
 This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment happens on every push to the main branch.
 
+**Current Status**: Successfully deployed to GitHub Pages! 🚀
+
 ## Development
 
 ```bash
