@@ -33,10 +33,10 @@ const BestSellingProducts: React.FC<BestSellingProductsProps> = ({ dataSource })
         {/* Top Div - Title */}
         <div className="h-[44px] flex items-center md:justify-center justify-between my-[12px] px-[10px] relative">
           <div className="flex items-center">
-            <img src="/images/logo/flame.svg" alt="" className="ml-[10px]" />
-            <h2 className="text-[21px] font-bold font-['IRANYekanWeb'] text-center">{mainTitle}</h2>
+            <img src="./images/logo/flame.svg" alt="" className="ml-[10px]" />
+            <h2 className="text-[21px] font-bold font-yekan text-center">{mainTitle}</h2>
           </div>
-          <span className="text-[14px] font-['IRANYekanWeb'] text-[#19BFD3] absolute left-7 top-1/2 -translate-y-1/2">مشاهده همه</span>
+          <span className="text-[14px] font-yekan text-[#19BFD3] absolute left-7 top-1/2 -translate-y-1/2">مشاهده همه</span>
         </div>
 
         {/* Bottom Div - Swiper Grid */}
@@ -82,12 +82,12 @@ const BestSellingProducts: React.FC<BestSellingProductsProps> = ({ dataSource })
 
                   {/* Middle - ID */}
                   <div className="w-[13.81px] flex items-center justify-center ml-[12px]">
-                    <span className="text-[#19bfd3] text-[26px] leading-2.1 font-bold font-['IRANYekanWeb'] text-right">{product.id}</span>
+                    <span className="text-[#19bfd3] text-[26px] leading-2.1 font-bold font-yekan text-right">{product.id}</span>
                   </div>
 
                   {/* Left side - Description */}
                   <div className="w-[190.688px] h-[86px] flex  items-center ">
-                    <p className="text-[#424750] text-right font-['IRANYekanWeb'] text-[12px] line-clamp-2 overflow-hidden text-ellipsis">{product.title_fa}</p>
+                    <p className="text-[#424750] text-right font-yekan text-[12px] line-clamp-2 overflow-hidden text-ellipsis">{product.title_fa}</p>
                   </div>
                 </div>
                 {product.id % 3 !== 0 && <div className="w-[183px] h-[1px] bg-[#E0E0E2] absolute bottom-0 left-[20px]"></div>}

@@ -21,14 +21,14 @@ const FloatingButton: React.FC<FloatingButtonProps> = ({ position = "left", vari
       className: "hidden md:flex w-[129.57px] h-[52.25px] rounded-full bg-[#00bf6f] hover:bg-[#00a862] py-[10px] px-[12px] gap-1",
       content: (
         <>
-          <span className="text-[15px] font-bold font-['IRANYekanWeb'] whitespace-nowrap">سوپر مارکت</span>
-          <img src="/images/logo/basket.svg" alt="" className="w-[28px] h-[60.2px] [filter:brightness(0)_invert(1)]" />
+          <span className="text-[15px] font-bold font-yekan whitespace-nowrap">سوپر مارکت</span>
+          <img src="./images/logo/basket.svg" alt="" className="w-[28px] h-[60.2px] [filter:brightness(0)_invert(1)]" />
         </>
       ),
     },
     help: {
       className: "hidden md:flex w-12 h-12 rounded-full bg-[#ef4056] hover:bg-[#e31c35] p-3",
-      content: <img src="/images/FloatingButton/headphone.svg" alt="Support" className="[filter:brightness(0)_invert(1)]" />,
+      content: <img src="./images/FloatingButton/headphone.svg" alt="Support" className="[filter:brightness(0)_invert(1)]" />,
     },
   };
 

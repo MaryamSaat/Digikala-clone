@@ -17,6 +17,9 @@ export default defineConfig({
         short_name: "Digikala",
         description: "A Digikala clone built with React",
         theme_color: "#ffffff",
+        background_color: "#ffffff",
+        display: "standalone",
+        scope: "/Digikala-clone/",
         start_url: "/Digikala-clone/",
         icons: [
           {
@@ -36,6 +39,14 @@ export default defineConfig({
             purpose: "any maskable",
           },
         ],
+      },
+      workbox: {
+        globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
+        maximumFileSizeToCacheInBytes: 3 * 1024 * 1024, // 3MB limit
+      },
+      devOptions: {
+        enabled: true,
+        type: "module",
       },
     }),
   ],

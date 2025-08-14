@@ -47,7 +47,7 @@ const SubmenuContent: React.FC = () => {
       {/* دیو بالایی: generalLink */}
       {activeCategory.generalLink && (
         <div className="w-full h-[15%] flex items-center justify-start mr-4">
-          <Link to="#" className="block text-right text-[12px] font-bold text-[#1496bb] font-['IRANYekanWeb'] leading-[52px]">
+          <Link to="#" className="block text-right text-[12px] font-bold text-[#1496bb] font-yekan leading-[52px]">
             {activeCategory.generalLink} &gt;
           </Link>
         </div>
@@ -63,12 +63,12 @@ const SubmenuContent: React.FC = () => {
             <div key={colIdx} className={`${colWidth} h-full px-2 flex flex-col`}>
               {col.map((item, idx) =>
                 item.type === "title" ? (
-                  <Link key={idx} to="#" className="block text-right text-[13px] font-bold text-[#020b0d] leading-[28px] hover:text-red-600 font-['IRANYekanWeb']">
+                  <Link key={idx} to="#" className="block text-right text-[13px] font-bold text-[#020b0d] leading-[28px] hover:text-red-600 font-yekan">
                     <span className="text-red-500 mx-1">|</span>
                     {item.text} &gt;
                   </Link>
                 ) : (
-                  <Link key={idx} to="#" className="block text-right text-[12px] text-gray-500 leading-[33px] hover:text-red-500 font-['IRANYekanWeb'] mr-4">
+                  <Link key={idx} to="#" className="block text-right text-[12px] text-gray-500 leading-[33px] hover:text-red-500 font-yekan mr-4">
                     {item.text}
                   </Link>
                 )

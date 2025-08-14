@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const HorizontalCards2: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const lastCardImages = ["/images/HorizontalCards/9.jpg", "/images/HorizontalCards/10.jpg"];
+  const lastCardImages = ["./images/HorizontalCards/9.jpg", "./images/HorizontalCards/10.jpg"];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -18,15 +18,15 @@ const HorizontalCards2: React.FC = () => {
       <div className="hidden md:flex w-[87%] justify-between">
         {/* کارت‌های ثابت */}
         <div className="w-[323px] h-[244px] rounded-2xl overflow-hidden">
-          <img src="/images/HorizontalCards/6.jpg" alt="card1" className="w-full h-full object-cover" />
+          <img src="./images/HorizontalCards/6.jpg" alt="card1" className="w-full h-full object-cover" />
         </div>
 
         <div className="w-[323px] h-[244px] rounded-2xl overflow-hidden">
-          <img src="/images/HorizontalCards/7.jpg" alt="card2" className="w-full h-full object-cover" />
+          <img src="./images/HorizontalCards/7.jpg" alt="card2" className="w-full h-full object-cover" />
         </div>
 
         <div className="w-[323px] h-[244px] rounded-2xl overflow-hidden">
-          <img src="/images/HorizontalCards/8.jpg" alt="card3" className="w-full h-full object-cover" />
+          <img src="./images/HorizontalCards/8.jpg" alt="card3" className="w-full h-full object-cover" />
         </div>
 
         {/* کارت آخر با دو عکس متغیر */}
@@ -39,15 +39,15 @@ const HorizontalCards2: React.FC = () => {
       <div className="md:hidden w-[87%] grid grid-cols-2 gap-4">
         {/* کارت‌های ثابت */}
         <div className="w-full aspect-[323/244] rounded-2xl overflow-hidden">
-          <img src="/images/HorizontalCards/6.jpg" alt="card1" className="w-full h-full object-cover" />
+          <img src="./images/HorizontalCards/6.jpg" alt="card1" className="w-full h-full object-cover" />
         </div>
 
         <div className="w-full aspect-[323/244] rounded-2xl overflow-hidden">
-          <img src="/images/HorizontalCards/7.jpg" alt="card2" className="w-full h-full object-cover" />
+          <img src="./images/HorizontalCards/7.jpg" alt="card2" className="w-full h-full object-cover" />
         </div>
 
         <div className="w-full aspect-[323/244] rounded-2xl overflow-hidden">
-          <img src="/images/HorizontalCards/8.jpg" alt="card3" className="w-full h-full object-cover" />
+          <img src="./images/HorizontalCards/8.jpg" alt="card3" className="w-full h-full object-cover" />
         </div>
 
         {/* کارت آخر با دو عکس متغیر */}

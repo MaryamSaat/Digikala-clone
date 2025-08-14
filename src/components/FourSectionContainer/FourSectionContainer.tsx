@@ -15,11 +15,11 @@ interface FourSectionContainerProps {
 
 const Section: React.FC<SectionProps> = ({ title, subtitle, images, isLast }) => {
   return (
-    <div className="relative flex flex-col px-[20px]">
+    <div className="relative flex flex-col px-[20px] ">
       {/* Top Div */}
       <div className="h-[57.6px] m-2">
-        <p className="text-[16px] text-black font-bold font-['IRANYekanWeb'] text-start">{title}</p>
-        <p className="text-[11px] text-black font-normal font-['IRANYekanWeb'] text-start">{subtitle}</p>
+        <p className="text-[16px] text-black font-bold font-yekan text-start">{title}</p>
+        <p className="text-[11px] text-black font-normal font-yekan text-start">{subtitle}</p>
       </div>
 
       {/* Middle Div - Grid */}
@@ -35,7 +35,7 @@ const Section: React.FC<SectionProps> = ({ title, subtitle, images, isLast }) =>
 
       {/* Bottom Div */}
       <div className="h-[70.8px] flex items-start justify-center">
-        <p className="text-[12px] text-[#19BFD3] font-normal font-['IRANYekanWeb'] mt-[4px]">مشاهده {">"} </p>
+        <p className="text-[12px] text-[#19BFD3] font-normal font-yekan mt-[4px]">مشاهده {">"} </p>
       </div>
 
       {!isLast && <div className="absolute left-0 top-0 h-[418px] w-[1px] bg-[#E0E0E2]" />}

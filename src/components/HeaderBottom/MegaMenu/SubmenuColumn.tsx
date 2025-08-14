@@ -16,7 +16,7 @@ const SubmenuColumn: React.FC = () => {
     <div className="w-[17%] h-full bg-[#f0f0f1] overflow-auto" dir="rtl">
       {categories.map((category: Category) => (
         <div className="w-full h-[41px] mb-[1px] relative" key={category.id} onMouseEnter={() => dispatch(setActiveCategory(category.id))}>
-          <Link to={category.url.uri} className="block w-full h-full text-right direction-rtl leading-[52px] font-['IRANYekanWeb'] no-underline text-[12px] text-[#2b2b2b] transition-all whitespace-nowrap hover:bg-white hover:text-red-500">
+          <Link to={category.url.uri} className="block w-full h-full text-right direction-rtl leading-[52px] font-yekan no-underline text-[12px] text-[#2b2b2b] transition-all whitespace-nowrap hover:bg-white hover:text-red-500">
             <img src={category.image} alt={category["main-title"]} className="w-[18px] h-[18px] ml-[5px] relative top-[5px] right-[2px] inline" />
             {category["main-title"]}
           </Link>

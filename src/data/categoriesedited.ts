@@ -8,7 +8,7 @@ export const Categories = [
         base: null,
         uri: "/landing/mobile/",
       },
-      image: "/images/logo/megamenu/mobile.svg",
+      image: "./images/logo/megamenu/mobile.svg",
       children: [
         {
           id: 1,
@@ -126,7 +126,7 @@ export const Categories = [
         base: null,
         uri: "/main/electronic-devices/",
       },
-      image: "/images/logo/megamenu/digital.svg",
+      image: "./images/logo/megamenu/digital.svg",
       children: [
         {
           id: 1,
@@ -300,7 +300,7 @@ export const Categories = [
         base: null,
         uri: "/main/home-and-kitchen/",
       },
-      image: "/images/logo/megamenu/furniture.svg",
+      image: "./images/logo/megamenu/furniture.svg",
       children: [
         {
           id: 1,
@@ -410,7 +410,7 @@ export const Categories = [
         base: null,
         uri: "/landing/category-home-appliance/",
       },
-      image: "/images/logo/megamenu/electrical.svg",
+      image: "./images/logo/megamenu/electrical.svg",
       children: [
         {
           id: 1,
@@ -491,7 +491,7 @@ export const Categories = [
         base: null,
         uri: "/main/personal-appliance/",
       },
-      image: "/images/logo/megamenu/cosmetics.svg",
+      image: "./images/logo/megamenu/cosmetics.svg",
       children: [
         {
           id: 1,
@@ -533,7 +533,7 @@ export const Categories = [
         base: null,
         uri: "/main/vehicles-spare-parts/",
       },
-      image: "/images/logo/megamenu/car.svg",
+      image: "./images/logo/megamenu/car.svg",
       children: [
         {
           id: 1,
@@ -604,7 +604,7 @@ export const Categories = [
         base: null,
         uri: "/main/vehicles/",
       },
-      image: "/images/logo/megamenu/tools.svg",
+      image: "./images/logo/megamenu/tools.svg",
       children: [
         {
           id: 1,
@@ -656,7 +656,7 @@ export const Categories = [
         base: null,
         uri: "/landing/apparel/",
       },
-      image: "/images/logo/megamenu/clothing.svg",
+      image: "./images/logo/megamenu/clothing.svg",
       children: [
         {
           id: 1,
@@ -838,7 +838,7 @@ export const Categories = [
         base: null,
         uri: "/landing/gold-jwelery-category-page/",
       },
-      image: "/images/logo/megamenu/gold.svg",
+      image: "./images/logo/megamenu/gold.svg",
       children: [
         {
           id: 1,
@@ -1043,7 +1043,7 @@ export const Categories = [
         base: null,
         uri: "/landing/medical-health-equipment/",
       },
-      image: "/images/logo/megamenu/medical.svg",
+      image: "./images/logo/megamenu/medical.svg",
       children: [
         {
           id: 1,
@@ -1107,7 +1107,7 @@ export const Categories = [
         base: null,
         uri: "/main/book-and-media/",
       },
-      image: "/images/logo/megamenu/stationary.svg",
+      image: "./images/logo/megamenu/stationary.svg",
       children: [
         {
           id: 1,
@@ -1190,7 +1190,7 @@ export const Categories = [
         base: null,
         uri: "/main/sport-entertainment/",
       },
-      image: "/images/logo/megamenu/sport.svg",
+      image: "./images/logo/megamenu/sport.svg",
       children: [
         {
           id: 1,
@@ -1292,7 +1292,7 @@ export const Categories = [
         base: null,
         uri: "/main/dk-ds-gift-card/",
       },
-      image: "/images/logo/megamenu/giftcard.svg",
+      image: "./images/logo/megamenu/giftcard.svg",
       children: [
         {
           id: 1,
@@ -1368,7 +1368,7 @@ export const Categories = [
         base: null,
         uri: "/main/food-beverage/",
       },
-      image: "/images/logo/megamenu/glocery.svg",
+      image: "./images/logo/megamenu/glocery.svg",
       children: [
         {
           id: 1,
@@ -1468,7 +1468,7 @@ export const Categories = [
         base: null,
         uri: "/main/mother-and-child/",
       },
-      image: "/images/logo/megamenu/baby.svg",
+      image: "./images/logo/megamenu/baby.svg",
       children: [
         {
           id: 1,
@@ -1543,7 +1543,7 @@ export const Categories = [
         base: null,
         uri: "/main/rural-products/",
       },
-      image: "/images/logo/megamenu/native.svg",
+      image: "./images/logo/megamenu/native.svg",
       children: [
         {
           id: 1,
@@ -1647,7 +1647,7 @@ export const Categories = [
         base: null,
         uri: "/landing/used/",
       },
-      image: "/images/logo/megamenu/usedgoods.svg",
+      image: "./images/logo/megamenu/usedgoods.svg",
       children: [
         {
           id: 1,

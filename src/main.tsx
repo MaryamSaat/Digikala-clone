@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
 import App from "./components/App/App";
-import './index.css';
+import "./index.css";
 
 // Register service worker conditionally
 if ("serviceWorker" in navigator) {
@@ -16,7 +16,13 @@ if ("serviceWorker" in navigator) {
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/Digikala-clone">
+      <BrowserRouter
+        basename="/Digikala-clone"
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true,
+        }}
+      >
         <App />
       </BrowserRouter>
     </Provider>

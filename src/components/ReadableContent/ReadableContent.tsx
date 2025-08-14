@@ -8,10 +8,10 @@ const ReadableContent: React.FC = () => {
         {/* Top Div - Title */}
         <div className="h-[65.6px] flex items-center justify-between px-4 pt-[10px]">
           <div className="w-1/2 flex items-center justify-start">
-            <span className="text-[#424750] text-[16px] font-bold text-right font-['IRANYekanWeb']">خواندنی ها</span>
+            <span className="text-[#424750] text-[16px] font-bold text-right font-yekan">خواندنی ها</span>
           </div>
           <div className="w-1/2 flex items-center justify-end">
-            <span className="text-[#19bfd3] text-[12px] text-left font-['IRANYekanWeb']">مطالب بیشتر در دیجیکالا مگ &gt;</span>
+            <span className="text-[#19bfd3] text-[12px] text-left font-yekan">مطالب بیشتر در دیجیکالا مگ &gt;</span>
           </div>
         </div>
 
@@ -22,7 +22,7 @@ const ReadableContent: React.FC = () => {
               <div className="w-full h-[200px] mb-2">
                 <img src={item.image} alt={item.title} className="w-full h-full object-cover rounded-t-2xl" />
               </div>
-              <h3 className="text-[#424750] text-[12px] font-['IRANYekanWeb'] mb-5 line-clamp-2 pr-2.5">{item.title}</h3>
+              <h3 className="text-[#424750] text-[12px] font-yekan mb-5 line-clamp-2 pr-2.5">{item.title}</h3>
             </div>
           ))}
         </div>

@@ -7,8 +7,8 @@ const SelectedProducts: React.FC = () => {
       <div className="md:w-[87%] w-full md:border md:border-[#E0E0E2] md:rounded-2xl">
         {/* Top Div - Title */}
         <div className="h-[44px] flex items-center justify-center my-[16px]">
-          <img src="/images/logo/discount.svg" alt="" className="ml-[12px]" />
-          <h2 className="text-[21px] font-bold font-['IRANYekanWeb'] text-center">منتخب محصولات تخفیف و حراج</h2>
+          <img src="./images/logo/discount.svg" alt="" className="ml-[12px]" />
+          <h2 className="text-[21px] font-bold font-yekan text-center">منتخب محصولات تخفیف و حراج</h2>
         </div>
 
         {/* Bottom Div - Grid */}
@@ -26,16 +26,16 @@ const SelectedProducts: React.FC = () => {
 
               {/* Price and Discount */}
               <div className="h-[33.6px] w-full flex items-center justify-between px-2">
-                <div className="bg-[#E6123D] text-white text-xs font-bold px-2 py-1 rounded-full font-['IRANYekanWeb']">{product.discount}%</div>
+                <div className="bg-[#E6123D] text-white text-xs font-bold px-2 py-1 rounded-full font-yekan">{product.discount}%</div>
                 <div className="flex items-center gap-1">
-                  <span className="text-[#424750] text-sm font-['IRANYekanWeb'] font-bold">{product.price}</span>
-                  <span className="text-[#424750] text-xs font-['IRANYekanWeb'] font-bold">تومان</span>
+                  <span className="text-[#424750] text-sm font-yekan font-bold">{product.price}</span>
+                  <span className="text-[#424750] text-xs font-yekan font-bold">تومان</span>
                 </div>
               </div>
 
               {/* Original Price */}
               <div className="h-[26.04px] w-full flex items-center justify-end px-2">
-                <span className="text-[#A1A3A8] text-xs line-through font-['IRANYekanWeb']">{product.finalprice}</span>
+                <span className="text-[#A1A3A8] text-xs line-through font-yekan">{product.finalprice}</span>
               </div>
             </div>
           ))}

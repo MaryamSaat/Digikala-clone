@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@theme {
+  --font-family-yekan: "IRANYekanWeb", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-iran: "IRANYekanWeb", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
 :root {
   font-family: "IRANYekanWeb", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

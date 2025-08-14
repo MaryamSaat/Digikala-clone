@@ -9,32 +9,32 @@ const HeaderRight: React.FC = () => {
         {[
           {
             href: "./amazing_ones.html",
-            img: "/images/logo/percent.svg",
+            img: "./images/logo/percent.svg",
             label: "شگفت انگیزها",
           },
           {
             href: "#",
-            img: "/images/logo/basket.svg",
+            img: "./images/logo/basket.svg",
             label: "سوپرمارکت",
           },
           {
             href: "#",
-            img: "/images/logo/giftcard.svg",
+            img: "./images/logo/giftcard.svg",
             label: "کارت هدیه",
           },
           {
             href: "#",
-            img: "/images/logo/flamegray.svg",
+            img: "./images/logo/flamegray.svg",
             label: "پرفروش ترین ها",
           },
           {
             href: "#",
-            img: "/images/logo/discountgray.svg",
+            img: "./images/logo/discountgray.svg",
             label: "تخفیف ها و پیشنهادها",
           },
         ].map(({ href, img, label }) => (
           <div key={label} className="h-full flex items-center whitespace-nowrap">
-            <a href={href} className="flex items-center h-full text-[12px] font-['IRANYekanWeb'] text-gray-500 no-underline px-[3px] gap-[5px]">
+            <a href={href} className="flex items-center h-full text-[12px] font-yekan text-gray-500 no-underline px-[3px] gap-[5px]">
               <img src={img} alt={label} className="w-[18px] h-[18px]" />
               {label}
             </a>

@@ -41,7 +41,7 @@ export default function StorySlider({ stories = storyData }: StorySliderProps) {
             <SwiperSlide key={story.id} className="!w-[74px] h-full flex justify-center items-center">
               <div className="w-full h-full flex flex-col items-center gap-2 pt-6 mx-2">
                 <img src={story.image} alt={story.title} className="w-[74px] h-[74px] rounded-full object-cover outline-2 outline-purple-500 outline-offset-3" />
-                <p className="text-center text-[11px] font-['IRANYekanWeb'] line-clamp-2 w-[74px] leading-[23px]">{story.title}</p>
+                <p className="text-center text-[11px] font-yekan line-clamp-2 w-[74px] leading-[23px]">{story.title}</p>
               </div>
             </SwiperSlide>
           ))}

@@ -10,7 +10,7 @@ export interface AmazingItem {
 export const amazingItems: AmazingItem[] = [
   {
     id: 1,
-    image: "/images/amazing/slide1.jpg",
+    image: "./images/amazing/slide1.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "2,999,000",
     discount: "17%",
@@ -18,7 +18,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 2,
-    image: "/images/amazing/slide2.jpg",
+    image: "./images/amazing/slide2.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "2,999,000",
     discount: "17%",
@@ -26,7 +26,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 3,
-    image: "/images/amazing/slide3.jpg",
+    image: "./images/amazing/slide3.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "2,999,000",
     discount: "17%",
@@ -35,7 +35,7 @@ export const amazingItems: AmazingItem[] = [
 
   {
     id: 4,
-    image: "/images/amazing/slide4.jpg",
+    image: "./images/amazing/slide4.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
@@ -43,7 +43,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 5,
-    image: "/images/amazing/slide5.jpg",
+    image: "./images/amazing/slide5.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
@@ -51,7 +51,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 6,
-    image: "/images/amazing/slide6.jpg",
+    image: "./images/amazing/slide6.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
@@ -59,7 +59,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 7,
-    image: "/images/amazing/slide7.jpg",
+    image: "./images/amazing/slide7.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
@@ -67,7 +67,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 8,
-    image: "/images/amazing/slide9.jpg",
+    image: "./images/amazing/slide9.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
@@ -75,7 +75,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 9,
-    image: "/images/amazing/slide10.jpg",
+    image: "./images/amazing/slide10.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
@@ -83,7 +83,7 @@ export const amazingItems: AmazingItem[] = [
   },
   {
     id: 10,
-    image: "/images/amazing/slide11.jpg",
+    image: "./images/amazing/slide11.jpg",
     description: "گوشی موبایل دوجی مدل S40 دو سیم کارت ظرفیت 32 گیگابایت و رم 3 گیگابایت",
     price: "3,599,000",
     discount: "17%",
